@@ -1,0 +1,162 @@
+header img
+{
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    bottom: 130px;
+}
+
+nav
+{
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    margin-left: 2.5%;
+    background-color: #03aee2;
+    box-shadow: inset 0px 0px 39px 0.5px rgba(38,47,126,0.5);
+    border: 1px solid black;
+}
+
+hr
+{
+    visibility: hidden;
+}
+
+
+section h2
+{
+    display: none;
+}
+
+/* ====== */
+/* = ul = */
+/* ====== */
+
+nav ul
+{
+    float: left;
+    width: 60%;
+}
+
+.languages
+{
+    width: 32%;
+    height: 63px;
+    bottom: 117.5px;
+    left: 800px;
+}
+
+
+/* ====== */
+/* = li = */
+/* ====== */
+
+nav li, .languages li
+{
+    border: 1px solid black;
+    width: 12%;
+    height: 30px;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px;
+    padding-top: 10px;
+    background-color: #e4c501;
+    box-shadow: inset -7px -7px 5px #c17f02;
+    float: left;
+    text-align: center;
+}
+
+nav li:hover, .languages li:hover
+{
+    box-shadow: inset 7px 7px 5px #c17f02;
+}
+
+.languages li
+{
+    float: right;
+    top: 50px
+}
+
+.languages li:nth-child(2)
+{
+    border: none;
+    background: none;
+    box-shadow: none;
+    width: 0.5px;
+}
+
+
+/* ===== */
+/* = a = */
+/* ===== */
+
+nav a, .languages a
+{
+    color: grey;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    bottom: 10px;
+    top: 0px;
+}
+
+a.active
+{
+    color: black;
+    font-weight: 700;
+}
+
+a:hover:not(.active)
+{
+    color: white;
+}
+
+
+/* ===== */
+/* = a = */
+/* ===== */
+
+a:hover
+{
+    color: white;
+}
+
+header a:active
+{
+        color: blue;
+    text-shadow:
+    -1px -1px 0 cyan,
+     0   -1px 0 cyan,
+     1px -1px 0 cyan,
+     1px  0   0 cyan,
+     1px  1px 0 cyan,
+     0    1px 0 cyan,
+    -1px  1px 0 cyan,
+    -1px  0   0 cyan;
+}
+
+header a.active
+{
+    color: blue;
+    text-shadow:
+    -1px -1px 0 cyan,
+     0   -1px 0 cyan,
+     1px -1px 0 cyan,
+     1px  0   0 cyan,
+     1px  1px 0 cyan,
+     0    1px 0 cyan,
+    -1px  1px 0 cyan,
+    -1px  0   0 cyan;
+}
+
+.languages a:active
+{
+    color: white;
+    text-shadow: none;
+}
+
+.languages a.active
+{
+    color: black;
+    text-shadow: none;
+}
